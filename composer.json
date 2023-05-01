@@ -1,0 +1,46 @@
+{
+    "name": "joshluongo/filament-abn-acn",
+    "description": "Australian Business Number and Australian Company Number inputs for Filament",
+    "type": "library",
+    "keywords": [
+        "joshluongo",
+        "laravel",
+        "filament-abn-acn",
+        "filament",
+        "abn",
+        "acn"
+    ],
+    "require": {
+        "php": "^8.1|^8.2",
+        "filament/filament": "2.x-dev | 3.x-dev",
+        "spatie/laravel-package-tools": "^1.14.0",
+        "illuminate/contracts": "^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Joshluongo\\FilamentAbnAcn\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Josh Luongo",
+            "email": "josh@jrapps.com.au",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "laravel/pint": "^1.10"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Joshluongo\\FilamentAbnAcn\\AbnAcnServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
